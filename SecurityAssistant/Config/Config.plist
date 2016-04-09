@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>LaunchHandle</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>安全隐患</string>
+			<key>image</key>
+			<string>trouble_task.png</string>
+			<key>class</key>
+			<string>SafetyViewController</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>委派任务</string>
+			<key>image</key>
+			<string>wh_03.png</string>
+			<key>class</key>
+			<string>AssignmentViewController</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>消息通知</string>
+			<key>image</key>
+			<string>wh_04.png</string>
+			<key>class</key>
+			<string>NotificationViewController</string>
+		</dict>
+	</array>
+</dict>
+</plist>

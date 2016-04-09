@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WaitHandledAssignTaskStandardSectionViewController">
+            <connections>
+                <outlet property="addStepButton" destination="hm4-QD-9Y6" id="d6M-0Q-HaW"/>
+                <outlet property="goDetailsButton" destination="XQo-ei-fYO" id="4hs-2e-XEF"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="120"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XQo-ei-fYO">
+                    <rect key="frame" x="530" y="9" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="jK9-Sy-vuh"/>
+                        <constraint firstAttribute="height" constant="40" id="jqb-BS-fhI"/>
+                    </constraints>
+                    <state key="normal" image="c_scroll.png"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="发起任务信息" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ma-t5-UNM">
+                    <rect key="frame" x="25" y="19" width="435" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="hZ1-WE-cAM"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="实线条.png" translatesAutoresizingMaskIntoConstraints="NO" id="IBY-3m-MNg">
+                    <rect key="frame" x="8" y="57" width="584" height="6"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="添加步骤：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Scx-Uu-fge">
+                    <rect key="frame" x="25" y="81" width="94" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="Sap-aA-hAo"/>
+                        <constraint firstAttribute="width" constant="94" id="VK5-Ca-5N5"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hm4-QD-9Y6">
+                    <rect key="frame" x="115" y="71" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="CSv-5c-g6s"/>
+                        <constraint firstAttribute="width" constant="40" id="Z6q-rH-nKn"/>
+                    </constraints>
+                    <state key="normal" image="ic_add_step.png"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="hm4-QD-9Y6" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="115" id="50T-o5-JRt"/>
+                <constraint firstAttribute="trailing" secondItem="XQo-ei-fYO" secondAttribute="trailing" constant="30" id="MPj-WY-1yc"/>
+                <constraint firstItem="3Ma-t5-UNM" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="25" id="NG2-mx-8te"/>
+                <constraint firstItem="XQo-ei-fYO" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="9" id="QWE-vB-y8G"/>
+                <constraint firstAttribute="trailing" secondItem="3Ma-t5-UNM" secondAttribute="trailing" constant="140" id="QZd-32-eqD"/>
+                <constraint firstItem="3Ma-t5-UNM" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="19" id="XiZ-2N-XmE"/>
+                <constraint firstItem="Scx-Uu-fge" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="25" id="YMk-nF-We5"/>
+                <constraint firstItem="hm4-QD-9Y6" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="71" id="fKf-tK-NDR"/>
+                <constraint firstItem="Scx-Uu-fge" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="81" id="nQx-OF-Ihi"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="139" y="260"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="c_scroll.png" width="64" height="64"/>
+        <image name="ic_add_step.png" width="77" height="72"/>
+        <image name="实线条.png" width="442" height="14"/>
+    </resources>
+</document>

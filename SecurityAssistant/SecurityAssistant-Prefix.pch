@@ -1,0 +1,28 @@
+//
+//  SecurityAssistant-Prefix.pch
+//  SecurityAssistant
+//
+//  Created by 周文松 on 16/3/1.
+//  Copyright © 2016年 talkweb. All rights reserved.
+//
+
+#ifndef SecurityAssistant_Prefix_pch
+#define SecurityAssistant_Prefix_pch
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import "SVProgressHUD.h"
+#import "NetDown.h"
+#import "NetUp.h"
+#import "VariableStore.h"
+#import "Category.h"
+#import "Device.h"
+#import "Header.h"
+#import "NSString+MD5Addition.h"
+#import "UIImageView+WebCache.h"
+#import "AppConfig.h"
+#endif
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* SecurityAssistant_Prefix_pch */

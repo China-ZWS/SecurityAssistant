@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5f587d5e-4e52-bc45-a235-1c1a54f8d013++9785",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "5f587d5e-4e52-bc45-a235-1c1a54f8d013++9785" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5f587d5e-4e52-bc45-a235-1c1a54f8d013++9785" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7258BD00-A9AA-44C4-B074-CBE19B017650",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5f587d5e-4e52-bc45-a235-1c1a54f8d013++9785" : "ios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SecurityAssistant",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SecurityAssistant.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/zhouwensong%40talkweb.com.cn@yfzx.talkyun.com.cn\/svn\/nbycaqgl",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5f587d5e-4e52-bc45-a235-1c1a54f8d013++9785"
+    }
+  ]
+}

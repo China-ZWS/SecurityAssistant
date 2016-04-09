@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WaitHandledTaskStandardSectionViewController">
+            <connections>
+                <outlet property="goDetailsButton" destination="HD2-ZA-Lt9" id="iWF-aN-NsH"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="60"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HD2-ZA-Lt9">
+                    <rect key="frame" x="530" y="10" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="NJC-7E-4bc"/>
+                        <constraint firstAttribute="height" constant="40" id="S9c-cY-gTK"/>
+                    </constraints>
+                    <state key="normal" image="c_scroll.png"/>
+                    <connections>
+                        <action selector="showContent:" destination="-1" eventType="touchUpInside" id="L60-Z5-u5E"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_lable_normal.png" translatesAutoresizingMaskIntoConstraints="NO" id="40j-YX-MDw">
+                    <rect key="frame" x="8" y="15" width="110" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="28" id="tZH-Dm-UnT"/>
+                        <constraint firstAttribute="width" constant="110" id="xpz-GX-hWt"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="实线条.png" translatesAutoresizingMaskIntoConstraints="NO" id="hhf-rn-Ezb">
+                    <rect key="frame" x="-10" y="-2" width="620" height="6"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="6" id="1vL-yf-nVc"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="任务对象识别" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wjx-EQ-hui">
+                    <rect key="frame" x="10" y="19" width="107" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="107" id="ddd-fP-eNn"/>
+                        <constraint firstAttribute="height" constant="21" id="es8-hM-Bnw"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="hhf-rn-Ezb" secondAttribute="trailing" constant="-10" id="3Tu-he-FhM"/>
+                <constraint firstAttribute="trailing" secondItem="HD2-ZA-Lt9" secondAttribute="trailing" constant="30" id="5et-Rr-UMn"/>
+                <constraint firstItem="hhf-rn-Ezb" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="-2" id="8Mw-e7-mcx"/>
+                <constraint firstItem="hhf-rn-Ezb" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="-10" id="9qR-aU-qwv"/>
+                <constraint firstItem="40j-YX-MDw" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="Ap9-5o-6gN"/>
+                <constraint firstItem="40j-YX-MDw" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="15" id="Asg-nU-sQW"/>
+                <constraint firstItem="wjx-EQ-hui" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="19" id="BeU-1d-d2Z"/>
+                <constraint firstItem="wjx-EQ-hui" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="SAo-bw-E0z"/>
+                <constraint firstItem="HD2-ZA-Lt9" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="10" id="p1f-ZN-zqm"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="154" y="263"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="c_scroll.png" width="64" height="64"/>
+        <image name="ic_lable_normal.png" width="72" height="28"/>
+        <image name="实线条.png" width="442" height="14"/>
+    </resources>
+</document>
